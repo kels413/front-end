@@ -48,9 +48,15 @@ multiply()
 
 
 //event handlers
-mainBtn = document.getElementById("btn")
-btn = document.querySelector("#btn").addEventListener("click",function(){
-    // console.log(btn)
-    alert("GOD IS THE GREATESTg")
+// mainBtn = document.getElementById("btn")
+// document.querySelector("#btn").addEventListener("click",function(){
+//     // console.log(btn)
+//     alert("GOD IS THE GREATESTg")
+// })
+
+// using arrow functions to listen to event.
+
+document.querySelector("#btn").addEventListener("click", () =>{
+    alert("praise the LORD oh my SOUL")
 })
 
