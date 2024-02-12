@@ -51,6 +51,6 @@ multiply()
 mainBtn = document.getElementById("btn")
 btn = document.querySelector("#btn").addEventListener("click",function(){
     // console.log(btn)
-    alert("GOD IS THE GREATEST")
+    alert("GOD IS THE GREATESTg")
 })
 
