@@ -16,7 +16,9 @@ For loops in js
 for (let index = 0; index < studentNames.length; index++) {
     console.log(studentNames[index])
 }
-
+/*
+conditionals
+*/
 let person1 = 1
 let person2 = "1"
 
@@ -26,4 +28,22 @@ if (person1 === person2){
 {
     console.log("they are not the same")
 }
+
+/*
+functions
+*/
+
+function multiply()
+{
+    num1 = 5;
+    num2 = 10;
+
+    const sum = num1 + num2;
+
+    console.log(sum)
+}
+
+
+multiply()
+
 
