@@ -8,3 +8,9 @@ const sum = studentName + book
 console.log(sum)
 
 
+let studentNames = ["book", "cup", "okoye", "eye"]
+
+for (let index = 0; index < studentNames.length; index++) {
+    console.log(studentNames[index])
+}
+
