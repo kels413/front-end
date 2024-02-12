@@ -17,3 +17,13 @@ for (let index = 0; index < studentNames.length; index++) {
     console.log(studentNames[index])
 }
 
+let person1 = 1
+let person2 = "1"
+
+if (person1 === person2){
+    console.log("they are the same")
+}else
+{
+    console.log("they are not the same")
+}
+
