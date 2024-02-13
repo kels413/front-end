@@ -254,6 +254,14 @@ function personName(name){
 let person1 = personName("age")
 console.log(person1)
 
-person['leg'] = 'okoh'
+//adding property to our object
+person['height'] = '1.9cm'
+
+//adding function to our object
+// signature = object.functionName = function() {}
+person.greet = function(){
+    console.log("hello boy")
+}
 
 console.log(person)
+person.greet()
