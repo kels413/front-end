@@ -242,26 +242,39 @@
 //    console.log(k + ':' + v)
 // }
 
+// const person = {
+//     name: ['kelly', 'okoye'],
+//     age: 20,
+//     gender: 'male',
+// }
+
+// function personName(name){
+//     return person[name]
+// }
+// let person1 = personName("age")
+// console.log(person1)
+
+// //adding property to our object
+// person['height'] = '1.9cm'
+
+// //adding function to our object
+// // signature = object.functionName = function() {}
+// person.greet = function(){
+//     console.log(`good night ${this.name[0]}`)
+// }
+
+// console.log(person)
+// person.greet()
+
+// recieve from the user 
+
 const person = {
-    name: ['kelly', 'okoye'],
-    age: 20,
-    gender: 'male',
+    name: prompt("please input your name "),
+    age:  prompt("please input your age "),
+    gender: prompt("please input your gender "),
 }
 
-function personName(name){
-    return person[name]
-}
-let person1 = personName("age")
-console.log(person1)
+console.log(person.name)
+console.log(person.age)
+console.log(person.gender)
 
-//adding property to our object
-person['height'] = '1.9cm'
-
-//adding function to our object
-// signature = object.functionName = function() {}
-person.greet = function(){
-    console.log("hello boy")
-}
-
-console.log(person)
-person.greet()
