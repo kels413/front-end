@@ -1,50 +1,47 @@
-heading = document.getElementById('kellys')
-heading.textContent = "Kelly okoye"
-console.log(heading)
+// let heading = document.getElementById('kellys')
+// heading.textContent = "Kelly okoye"
+// console.log(heading)
 
-const studentName = '1'
-const book = 'cup'
-const sum = studentName + book
-console.log(sum)
+// const studentName = '1'
 
-//arrays
-let studentNames = ["book", "cup", "okoye", "eye"]
+// //arrays
+// let studentNames = ["book", "cup", "okoye", "eye"]
 
-/*
-For loops in js
-*/
-for (let index = 0; index < studentNames.length; index++) {
-    console.log(studentNames[index])
-}
-/*
-conditionals
-*/
-let person1 = 1
-let person2 = "1"
+// /*
+// For loops in js
+// */
+// for (let index = 0; index < studentNames.length; index++) {
+//     console.log(studentNames[index])
+// }
+// /*
+// conditionals
+// */
+// let person1 = 1
+// let person2 = "1"
 
-if (person1 === person2){
-    console.log("they are the same")
-}else
-{
-    console.log("they are not the same")
-}
+// if (person1 === person2){
+//     console.log("they are the same")
+// }else
+// {
+//     console.log("they are not the same")
+// }
 
-/*
-functions
-*/
+// /*
+// functions
+// */
 
-function multiply()
-{
-    num1 = 5;
-    num2 = 10;
+// function multiply()
+// {
+//     num1 = 5;
+//     num2 = 10;
 
-    const sum = num1 + num2;
+//     const sum = num1 + num2;
 
-    console.log(sum)
-}
+//     console.log(sum)
+// }
 
 
-multiply()
+// multiply()
 
 
 //event handlers
@@ -56,44 +53,46 @@ multiply()
 
 // using arrow functions to listen to event.
 
-document.querySelector("#btn").addEventListener("click", () =>{
-    alert("praise the LORD oh my SOUL")
-})
+// document.querySelector("#btn").addEventListener("click", () =>{
+//     alert("praise the LORD oh my SOUL")
+// })
 
 
-let firstImg = document.querySelector(".first_img")
-let secondImg = document.querySelector(".second_img")
+// let firstImg = document.querySelector(".first_img")
+// let secondImg = document.querySelector(".second_img")
 
 
-// images to dynamically change
-img = document.querySelectorAll(".image_container img")
+// // images to dynamically change
+// img = document.querySelectorAll(".image_container img")
 
 
-let firstImgSrc = firstImg.getAttribute('src');
-let tmp = firstImg;
-let secondImgSrc = secondImg.getAttribute('src');
+// let firstImgSrc = firstImg.getAttribute('src');
+// let tmp = firstImg;
+// let secondImgSrc = secondImg.getAttribute('src');
 
-firstImg.addEventListener('click', () => 
-{
-    firstImg.setAttribute('src', secondImgSrc)
+// firstImg.addEventListener('click', () => 
+// {
+//     firstImg.setAttribute('src', secondImgSrc)
     
-    secondImg.setAttribute('src',firstImgSrc)
-})
+//     secondImg.setAttribute('src',firstImgSrc)
+// })
 
 
 
-secondImg.addEventListener('click', () => 
-{
+// secondImg.addEventListener('click', () => 
+// {
 
-    if (firstImg.getAttribute('src') === firstImg.getAttribute('src'))
-    {
-        secondImg.setAttribute('src', firstImgSrc)
-    }else{
-      firstImg.setAttribute('src', secondImgSrc)
-    }
+//     if (firstImg.getAttribute('src') === firstImg.getAttribute('src'))
+//     {
+//         secondImg.setAttribute('src', firstImgSrc)
+//     }else{
+//       firstImg.setAttribute('src', secondImgSrc)
+//     }
 
     
-})
+// })
+
+
     // if (firstImgSrc === secondImgSrc)
     // {
     //     console.log("it has changed")
@@ -197,4 +196,47 @@ secondImg.addEventListener('click', () =>
 //     //         imageSrc = e.target.setAttribute('src', 'images/cat1.jpeg')
 //     //    }
 
+
+const person = {
+    names:{
+        firsName: 'Mista',
+        lastName: 'Kelly'
+    },
+    age: 50,
+    class: 'jss2',
+    gender: 'male',
+
+    characteristics: {
+        height: '1.8cm',
+        toxic: 'A lil bit',
+        womanizer: 'average',
+        married: 'yes',
+        childrenNo: '2',
+        childrenNames: ['Blessing', 'kelly'],
+        childrenInfo: {
+            firstChild:{
+                firstname: 'Blessing',
+                lastName: 'okoye',
+                age: 20,
+                gender: 'girl',
+                height: '1.9cm',
+            },
+            secondChild:{
+                firstname: 'Kelly',
+                lastName: 'okoye',
+                age: 20,
+                gender: 'boy',
+                height: '2.9cm',
+            },
+        },
+    },
+    // introduce(){
+    //     return `My name is ${this.name[0]}, I am ${this.age}, my class is ${this.class}, and I am a ${this.gender}`
+    // }
+}
+
+// for (let [k, v] of Object.entries(person)){
+//     console.log(k,v)
+// }
+// console.log(person)
 
