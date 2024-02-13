@@ -220,6 +220,7 @@ const person = {
                 age: 20,
                 gender: 'girl',
                 height: '1.9cm',
+                favorites: ['Football', 'Anime', 'Reading']
             },
             secondChild:{
                 firstname: 'Kelly',
@@ -230,9 +231,6 @@ const person = {
             },
         },
     },
-    // introduce(){
-    //     return `My name is ${this.name[0]}, I am ${this.age}, my class is ${this.class}, and I am a ${this.gender}`
-    // }
 }
 
 // for (let [k, v] of Object.entries(person)){
@@ -240,3 +238,6 @@ const person = {
 // }
 // console.log(person)
 
+for (let [k, v] of Object.entries(person.characteristics.childrenInfo.firstChild)){  
+   console.log(k + ':' + v)
+}
