@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_content{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav_content ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    text-transform: uppercase;
+
+
+}
+
+.nav_content ul li:first-child{
+    color: rgb(126,100,214);
+}
+
+.btn{
+    border: none;
+    background-color: rgb(108,52,255);
+    color: #fff;
+    padding: .9rem 2rem .9rem 2rem;
+    border-radius: 7px;
+    text-align: center;
+}
