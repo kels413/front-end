@@ -80,12 +80,16 @@ input:focus {
 
 }
 
+.signup_btn{
+    width: 80%;
+    display: flex;
+    
+}
 #signup_btn {
     background-color:  #E36A06;
-    margin: 1rem 0 0 6rem;
+    margin: 1rem auto;
     width: 40%;
     border: none;
     color: #eee;
     font-weight: 800;
-    /* text-transform: uppercase; */
 }
