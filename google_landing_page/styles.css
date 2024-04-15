@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    /* background: red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_page{
+    height: 70%;
+    width: 70%;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input_div{
+    width: 35%;
+    margin-bottom: 1rem;
+}
+
+.input_div input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: .9rem;
+    border: none;
+}
+
+.input_div input:focus{
+    outline: none;
+}
+button{
+    border: none;
+    padding: .7rem;
+    margin-left: 1rem;
+}
