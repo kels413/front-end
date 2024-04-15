@@ -47,8 +47,10 @@ main{
 .input_div input:focus{
     outline: none;
 }
+
 button{
     border: none;
     padding: .7rem;
     margin-left: 1rem;
+    
 }
